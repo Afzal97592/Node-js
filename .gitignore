@@ -1,0 +1,6 @@
+# log
+*.txt
+*.text
+
+
+node_modules
