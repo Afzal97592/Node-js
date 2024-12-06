@@ -27,13 +27,15 @@ app.post("/api/users", (req, res) => {
   users.push({ ...body, id: users.length + 1 });
   fs.writeFile("./MOCK_DATA.json", JSON.stringify(users), (error, data) => {
     if (body) {
-      return res.json({
+      return res.status(201).json({
         data: body,
-        status: 200,
+        success: true,
         message: "Your data is saved successfully!",
       });
     } else {
-      return res.json({ status: 400, message: "Your data is not save!" });
+      return res
+        .status(400)
+        .json({ status: 400, message: "Your data is not save!" });
     }
   });
 });
