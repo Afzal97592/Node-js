@@ -1,0 +1,15 @@
+
+User hit on this /api/v1/user route at Sat Dec 07 2024 20:29:26 GMT+0530 (India Standard Time) with this method POST && sytem ip is ::1
+User hit on this /api/v1/user/67545be0fdac41eed6b54912 route at Sat Dec 07 2024 20:29:48 GMT+0530 (India Standard Time) with this method PATCH && sytem ip is ::1
+User hit on this /api/v1/user/675462ce96bbda3e7a15ac57 route at Sat Dec 07 2024 20:30:03 GMT+0530 (India Standard Time) with this method PATCH && sytem ip is ::1
+User hit on this /api/v1/user/675462ce96bbda3e7a15ac57 route at Sat Dec 07 2024 20:30:14 GMT+0530 (India Standard Time) with this method GET && sytem ip is ::1
+User hit on this /api/v1/user route at Sat Dec 07 2024 20:30:26 GMT+0530 (India Standard Time) with this method GET && sytem ip is ::1
+User hit on this /api/v1/user/675462aa96bbda3e7a15ac54 route at Sat Dec 07 2024 20:30:44 GMT+0530 (India Standard Time) with this method DELETE && sytem ip is ::1
+User hit on this /api/v1/user route at Sat Dec 07 2024 20:30:49 GMT+0530 (India Standard Time) with this method GET && sytem ip is ::1
+User hit on this /api/v1/user route at Sat Dec 07 2024 23:09:14 GMT+0530 (India Standard Time) with this method POST && sytem ip is ::1
+User hit on this /api/v1/user route at Sat Dec 07 2024 23:09:20 GMT+0530 (India Standard Time) with this method POST && sytem ip is ::1
+User hit on this /api/v1/user/6754884803ff2c43e35e96b3 route at Sat Dec 07 2024 23:13:44 GMT+0530 (India Standard Time) with this method PATCH && sytem ip is ::1
+User hit on this /api/v1/user/675462ce96bbda3e7a15ac57 route at Sat Dec 07 2024 23:13:49 GMT+0530 (India Standard Time) with this method GET && sytem ip is ::1
+User hit on this /api/v1/user/6754884803ff2c43e35e96b3 route at Sat Dec 07 2024 23:13:54 GMT+0530 (India Standard Time) with this method GET && sytem ip is ::1
+User hit on this /api/v1/user route at Sat Dec 07 2024 23:14:01 GMT+0530 (India Standard Time) with this method GET && sytem ip is ::1
+User hit on this /api/v1/user/675462aa96bbda3e7a15ac54 route at Sat Dec 07 2024 23:14:17 GMT+0530 (India Standard Time) with this method DELETE && sytem ip is ::1
