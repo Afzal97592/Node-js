@@ -1,4 +1,6 @@
 import User from "../models/user.models.js";
+import { v4 as uuid } from "uuid";
+import { setUser } from "../services/user.js";
 
 const handleSignUpUser = async (req, res) => {
   try {
@@ -20,5 +22,26 @@ const handleSignUpUser = async (req, res) => {
       .json({ message: "Something went wrong", error: error });
   }
 };
+const handleLoginUser = async (req, res) => {
+  try {
+    const { email, password } = req.body;
 
-export { handleSignUpUser };
+    const user = await User.findOne({ email, password });
+
+    if (!user) {
+      return res.status(400).json({ message: "Invalid email or password!" });
+    }
+
+    const sessionId = uuid();
+    setUser(sessionId, user);
+    res.cookie("uid", sessionId);
+
+    return res.status(201).json({ message: "User  loggedin successfully!!" });
+  } catch (error) {
+    return res
+      .status(500)
+      .json({ message: "Something went wrong", error: error });
+  }
+};
+
+export { handleSignUpUser, handleLoginUser };
